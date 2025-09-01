@@ -7,7 +7,7 @@ export default function Consulting() {
   return (
     <section
       id="services"
-      className="w-full min-h-screen bg-gradient-to-t from-[#0A2E73] via-[#000000] to-[#0A2E73] text-white flex flex-col items-center justify-center px-6 py-20"
+      className="w-full min-h-screen bg-gradient-to-b from-[#0A2E73] via-[#000000] to-[#0A2E73] text-white flex flex-col items-center justify-center px-6 py-20"
     >
       {/* Heading */}
       <h2
@@ -28,7 +28,7 @@ export default function Consulting() {
           </CardHeader>
           <CardContent className="text-gray-300 text-sm leading-relaxed">
             Build powerful AI SaaS products without writing a single line of
-            code. We’ll guide you through the tools and frameworks to launch
+            code. I’ll guide you through the tools and frameworks to launch
             faster and smarter.
           </CardContent>
         </Card>
@@ -57,7 +57,7 @@ export default function Consulting() {
             </CardTitle>
           </CardHeader>
           <CardContent className="text-gray-300 text-sm leading-relaxed">
-            Work directly with Nilesh Shinde to validate your ideas, design
+            Work directly with ME to validate your ideas, design
             systems, and scale your AI SaaS with personalized expert guidance.
           </CardContent>
         </Card>

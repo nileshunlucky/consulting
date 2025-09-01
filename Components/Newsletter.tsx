@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ContactPage() {
   return (
-    <div id='contact' className="min-h-screen flex items-center justify-center bg-gradient-to-t from-[#0A2E73] via-[#000000] to-[#0A2E73] text-white p-6">
+    <div id='contact' className="min-h-screen flex items-center justify-center bg-gradient-to-b from-[#0A2E73] via-[#000000] to-[#0A2E73] text-white p-6">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}

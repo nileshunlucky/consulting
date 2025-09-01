@@ -9,8 +9,7 @@ export default function Home() {
   return (
     <div
       id="about"
-      className="relative min-h-screen md:py-0 py-10 flex items-center justify-center 
-                 bg-gradient-to-b from-[#000000] via-[#000000] to-[#0A2E73] text-white"
+      className="relative min-h-screen md:py-0 py-10 flex items-center justify-center bg-gradient-to-b from-[#000000] via-[#000000] to-[#0A2E73] text-white"
     >
       <div className="container mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
         {/* Content Section */}
@@ -29,7 +28,7 @@ export default function Home() {
 
           <p className="mt-6 text-base sm:text-lg text-blue-200 leading-relaxed">
             Helping founders build and monetize AI SaaS products without code.  
-            Premium one-on-one consulting at{" "}
+            Premium 1:1 consulting at{" "}
             <span className="font-semibold text-white">$97/hr</span>.
           </p>
 
@@ -63,8 +62,7 @@ export default function Home() {
           <img
             src="/nilesh.jpg"
             alt="Nilesh Shinde"
-            className="w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 
-                       rounded-2xl object-cover shadow-2xl border-4 border-blue-800"
+            className="w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96  rounded-2xl object-cover shadow-2xl border-4 border-blue-800"
           />
         </div>
       </div>
@@ -77,7 +75,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.4 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-md"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-md p-5 "
           >
             {/* Grid background (Apple-style subtle lines) */}
             <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:40px_40px]" />
@@ -88,7 +86,7 @@ export default function Home() {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
               transition={{ type: "spring", stiffness: 120, damping: 12 }}
-              className="relative max-w-2xl mx-auto p-8 rounded-3xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl text-center"
+              className="relative max-w-2xl mx-auto md:p-4 p-2 rounded-3xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl text-center"
             >
               <h3 className="text-3xl font-bold bg-gradient-to-r from-[#42A5F5] via-[#1E88E5] to-[#0D47A1] bg-clip-text text-transparent ">
                 About Me
