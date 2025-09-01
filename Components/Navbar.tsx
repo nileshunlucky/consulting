@@ -3,13 +3,13 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Menu, X } from "lucide-react"; // Hamburger + Close icon
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full px-6 py-4 flex items-center justify-between backdrop-blur-lg shadow-lg bg-black">
+    <nav className="relative z-50 w-full px-6 py-4 flex items-center justify-between backdrop-blur-lg shadow-lg bg-black">
       {/* Left Side - Brand */}
       <motion.h1
         className="text-white text-xl font-semibold tracking-wide"
@@ -43,7 +43,7 @@ export default function Navbar() {
             transition={{ type: "spring", stiffness: 300 }}
             className="relative px-8 py-2 text-white font-semibold rounded-full overflow-hidden"
           >
-            {/* 🔥 Glow */}
+            {/* Glow */}
             <motion.div
               className="absolute -inset-6 rounded-full blur-3xl opacity-70"
               style={{
@@ -84,10 +84,11 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <motion.div
-          initial={{ opacity: 0, y: -10 }}
+          initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.3 }}
-          className="absolute top-16 left-0 w-full bg-black/95 backdrop-blur-lg shadow-lg flex flex-col items-center gap-6 py-6 md:hidden"
+          className="fixed top-16 left-0 w-full bg-black/95 backdrop-blur-lg shadow-lg flex flex-col items-center gap-6 py-6 md:hidden z-[9999]"
         >
           <Link href="#services" className="text-gray-300 hover:text-white text-lg">
             Services
