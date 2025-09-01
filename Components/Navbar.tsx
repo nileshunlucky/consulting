@@ -34,7 +34,7 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <Link
-          href="https://mellvitta.lemonsqueezy.com/buy/f0e054bf-1fbe-48dc-9c60-ee81806168fb"
+          href="https://mellvitta.lemonsqueezy.com/buy/73ca5ede-afc7-4e90-a011-a65ea8ada81b"
           target="_blank"
         >
           <motion.button
