@@ -31,6 +31,9 @@ export default function Navbar() {
         <Link href="#contact" className="text-gray-300 hover:text-white text-sm">
           Contact
         </Link>
+        <Link href="#FAQ" className="text-gray-300 hover:text-white text-sm">
+          FAQ's
+        </Link>
 
         {/* CTA Button */}
         <Link
@@ -98,6 +101,9 @@ export default function Navbar() {
           </Link>
           <Link href="#contact" className="text-gray-300 hover:text-white text-lg">
             Contact
+          </Link>
+          <Link href="#FAQ" className="text-gray-300 hover:text-white text-lg">
+            FAQ's
           </Link>
 
           {/* CTA Button (mobile) */}

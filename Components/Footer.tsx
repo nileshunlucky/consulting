@@ -29,6 +29,9 @@ export default function Footer() {
           <a href="#contact" className="hover:text-[#42A5F5] transition">
             Contact
           </a>
+          <a href="#FAQ" className="hover:text-[#42A5F5] transition">
+            FAQ's
+          </a>
         </div>
 
         {/* Socials */}

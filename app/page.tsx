@@ -5,6 +5,7 @@ import Navbar from '@/Components/Navbar'
 import Footer from '@/Components/Footer'
 import Service from '@/Components/Service'
 import Newsletter from '@/Components/Newsletter'
+import FAQ from '@/Components/FAQ'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero/>
       <Service/>
       <Newsletter/>
+      <FAQ/>
       <Footer/>
     </div>
   )
